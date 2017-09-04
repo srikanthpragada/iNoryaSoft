@@ -1,1 +1,6 @@
 F:\classroom\inoryasoft\csdemo\bin\Debug\csdemo.exe.config
+F:\classroom\inoryasoft\csdemo\bin\Debug\csdemo.exe
+F:\classroom\inoryasoft\csdemo\bin\Debug\csdemo.pdb
+F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.csprojResolveAssemblyReference.cache
+F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.exe
+F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.pdb
