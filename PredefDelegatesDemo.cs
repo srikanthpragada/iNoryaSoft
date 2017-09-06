@@ -22,9 +22,7 @@ namespace csdemo
             Func<int> fd2 = () => DateTime.Now.Hour;
             Console.WriteLine(fd2());
 
-            Func<string, string, int> fd3 = (s1,s2) => s.Length;
-
-                
+            Func<string, string, int> fd3 = (s1,s2) => s1.Length;
 
 
         }

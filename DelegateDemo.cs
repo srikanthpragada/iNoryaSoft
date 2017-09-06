@@ -10,7 +10,7 @@ namespace csdemo
     delegate void PrintDelegate();
     delegate void Print2Delegate(string msg);
     delegate int  MathDelegate(int n1, int n2);
-
+    delegate Tout Process<Tin,Tout>(Tin v1, Tin v2);
 
     class DelegateDemo
     {
