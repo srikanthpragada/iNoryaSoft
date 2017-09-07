@@ -32,21 +32,25 @@ namespace csdemo
             nums.Push(10);
             nums.Push(20);
 
-            Console.WriteLine( nums.Pop() + 10 );
-            Console.WriteLine(nums.Contains(10));
-            Console.WriteLine(nums.Contains(50));
+            //Console.WriteLine( nums.Pop() + 10 );
+            //Console.WriteLine(nums.Contains(10));
+            //Console.WriteLine(nums.Contains(50));
 
 
             
 
-            GenStack<string> names = new GenStack<string>();
-            Console.WriteLine(nums.GetType().FullName);
-            Console.WriteLine(names.GetType().FullName);
+            GenStack<string> names1 = new GenStack<string>();
+            GenStack<string> names2 = new GenStack<string>();
+            GenStack<DateTime> dobs = new GenStack<DateTime>();
 
+            // GenStack<Time> times = new GenStack<Time>(); 
+
+            Console.WriteLine(names1.GetType().Equals(names2.GetType()));
+            Console.WriteLine(names2.GetType().Equals(dobs.GetType()));
         }
     }
 
-    class GenStack<T>
+    class GenStack<T>  where T : IComparable<T>
     {
         private T [] data;
         private int top = 0;
@@ -58,8 +62,12 @@ namespace csdemo
 
         public bool Contains(T v)
         {
-            // code here 
-            return true; 
+            for(int i = 0; i < top; i ++)
+            {
+                if (data[i].CompareTo(v) == 0)
+                    return true; 
+            }
+            return false;
         }
 
         public void Reset()
