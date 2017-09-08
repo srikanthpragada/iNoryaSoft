@@ -13,7 +13,7 @@ namespace csdemo
             if (b.Price > 400)
                 return true;
             else
-                return false; 
+                return false;
         }
 
         static void Main(string[] args)
@@ -31,7 +31,27 @@ namespace csdemo
 
 
             foreach (var b in selbooks)
-                Console.WriteLine("{0} {1}",b.Title, b.Price);
+                Console.WriteLine("{0} {1}", b.Title, b.Price);
+
+            /*
+            var maxprice = books.Max(b => b.Price);
+
+            var book = books.Where(b => b.Price == maxprice)
+                            .OrderByDescending( b => b.NoPages)
+                            .First();
+            */
+
+            var maxprice = books.Max(b => b.Price);
+
+            var book = (from b in books
+                        where b.Price == maxprice
+                        orderby b.NoPages descending
+                        select b
+                        ).First();
+
+            Console.WriteLine("{0} - {1}",book.Title, book.Price);
+
+            var total = books.Sum(b => b.Price);
 
 
         }

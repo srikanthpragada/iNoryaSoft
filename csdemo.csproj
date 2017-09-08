@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>csdemo.DynamicLinq</StartupObject>
+    <StartupObject>csdemo.DownloadAsyncDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,9 +48,13 @@
     <Compile Include="Book.cs" />
     <Compile Include="ConversionDemo.cs" />
     <Compile Include="DelegateDemo.cs" />
+    <Compile Include="DownloadAsync.cs" />
     <Compile Include="DynamicDemo.cs" />
     <Compile Include="DynamicLinq.cs" />
+    <Compile Include="EventsDemo.cs" />
     <Compile Include="ImplicitVariableDemo.cs" />
+    <Compile Include="BooksBySubject.cs" />
+    <Compile Include="ListCsharpFiles.cs" />
     <Compile Include="MyStack.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PredefDelegatesDemo.cs" />
