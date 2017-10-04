@@ -9,11 +9,13 @@ namespace csdemo.ef
 {
     class HRContext : DbContext 
     {
-        public HRContext() : base(@"Data Source=(localdb)\mssqllocaldb;Initial Catalog=msdb;Integrated Security=True")
+        public HRContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\classroom\inoryasoft\csdemo\ef\hr.mdf;Integrated Security=True;MultipleActiveResultSets=True")
         {
+           Database.SetInitializer<HRContext>(null);
 
         }
 
         public  DbSet<Department> Departments { get; set; }
+        public  DbSet<Employee> Employees { get; set; }
     }
 }

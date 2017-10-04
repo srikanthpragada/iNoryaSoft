@@ -4,9 +4,9 @@ F:\classroom\inoryasoft\csdemo\bin\Debug\csdemo.pdb
 F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.csprojResolveAssemblyReference.cache
 F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.exe
 F:\classroom\inoryasoft\csdemo\obj\Debug\csdemo.pdb
-F:\classroom\inoryasoft\csdemo\bin\Debug\ef\hr.mdf
-F:\classroom\inoryasoft\csdemo\bin\Debug\ef\hr_log.ldf
 F:\classroom\inoryasoft\csdemo\bin\Debug\EntityFramework.dll
 F:\classroom\inoryasoft\csdemo\bin\Debug\EntityFramework.SqlServer.dll
 F:\classroom\inoryasoft\csdemo\bin\Debug\EntityFramework.xml
 F:\classroom\inoryasoft\csdemo\bin\Debug\EntityFramework.SqlServer.xml
+F:\classroom\inoryasoft\csdemo\bin\Debug\ef\hr.mdf
+F:\classroom\inoryasoft\csdemo\bin\Debug\ef\hr_log.ldf

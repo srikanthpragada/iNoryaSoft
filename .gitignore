@@ -1,4 +1,6 @@
-/bin/
+/bin/*
+/ef/*.mdf
+/ef/*.ldf
 /obj/
 /properties/
 /packages/
