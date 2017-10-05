@@ -78,7 +78,9 @@
     <Compile Include="ef\Department.cs" />
     <Compile Include="ef\Employee.cs" />
     <Compile Include="ef\HRContext.cs" />
+    <Compile Include="ef\AddDept.cs" />
     <Compile Include="ef\ListDept.cs" />
+    <Compile Include="ef\ListDeptEmp.cs" />
     <Compile Include="ef\ListEmployees.cs" />
     <Compile Include="EventsDemo.cs" />
     <Compile Include="ImplicitVariableDemo.cs" />

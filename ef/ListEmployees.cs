@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +15,6 @@ namespace csdemo.ef
             ctx.Database.Log = Console.WriteLine;
 
             foreach(var e  in ctx.Employees.Include("Department"))
-
-            //foreach (var e in ctx.Employees)
             {
                 // Console.WriteLine(e.GetType().FullName);
                 Console.WriteLine("{0} {1}",e.Name, e.Department.DepartmentName);
