@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>csdemo.ef.ListEmployees</StartupObject>
+    <StartupObject>csdemo.ef.NativeSQLDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -82,6 +82,7 @@
     <Compile Include="ef\ListDept.cs" />
     <Compile Include="ef\ListDeptEmp.cs" />
     <Compile Include="ef\ListEmployees.cs" />
+    <Compile Include="ef\NativeSQLDemo.cs" />
     <Compile Include="EventsDemo.cs" />
     <Compile Include="ImplicitVariableDemo.cs" />
     <Compile Include="BooksBySubject.cs" />
