@@ -11,7 +11,6 @@ namespace csdemo.ef
     // [Table("departments")]
     public class Department
     {
-
         public Department()
         {
             Employees = new HashSet<Employee>();

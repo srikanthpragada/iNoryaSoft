@@ -15,6 +15,14 @@ namespace csdemo.ef
 
         }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            // changes default schema to the given schema 
+            // modelBuilder.HasDefaultSchema("dbo");
+            // modelBuilder.Entity<Employee>().
+        }
+
+
         public  DbSet<Department> Departments { get; set; }
         public  DbSet<Employee> Employees { get; set; }
     }
